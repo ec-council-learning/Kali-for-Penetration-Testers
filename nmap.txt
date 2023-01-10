@@ -1,0 +1,20 @@
+Scan a single IP nmap 192.168.211.129
+Scan a host nmap www.hostname.com
+Scan a range of IPs nmap 192.168.211.129-139
+Scan a subnet nmap 192.168.211.0/24
+Scan targets from a text file nmap -iL list-of-ips.txt
+Scan a single port nmap -p 22 192.168.211.129
+Scan a range of ports nmap -p 1-100 192.168.211.129
+Scan 100 most common ports (Fast) nmap -F 192.168.211.129
+Scan all 65535 ports nmap -p- 192.168.211.129
+Intense scan all TCP ports nmap -p 1-65535 -T4 -A -v 192.168.211.129
+Scan using TCP connect nmap -sT 192.168.211.129
+Scan using TCP SYN scan (default) nmap -sS 192.168.211.129
+Scan UDP ports nmap -sU -p 123,161,162 192.168.211.129
+Detect OS and Services nmap -A 192.168.211.129
+Standard service detection nmap -sV 192.168.211.129
+Quick scan plus OS fingerprinting and banner grabbing nmap -sV -T4 -O -F --version-light 192.168.211.129
+Intense scan no ping nmap -T4 -A -v -Pn 192.168.211.129
+Ping/sweep scan nmap -sn 192.168.211.129
+Save results as XML nmap -oX outputfile.xml 192.168.211.129
+Save results in a format for grep nmap -oG outputfile.txt 192.168.211.129

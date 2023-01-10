@@ -1,0 +1,39 @@
+KALI Linux:
+https://www.kali.org/downloads/
+
+Windows 10 trial VMWARE image
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+
+Workstation player
+https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
+
+Win32 Disk Imager:
+https://sourceforge.net/projects/win32diskimager/
+
+Metasploitable:
+https://metasploit.help.rapid7.com/docs/metasploitable-2
+
+Exploit Database:
+https://www.exploit-db.com/
+
+NetCat
+https://github.com/diegocr/netcat
+https://eternallybored.org/misc/netcat/
+
+ProGuard:
+https://www.guardsquare.com/en/products/proguard
+
+Netcat
+https://github.com/diegocr/netcat
+
+Hidden Tear Ransomware
+https://github.com/goliate/hidden-tear
+
+Pentest.ws:
+https://pentest.ws/
+
+No IP:
+noip.com
+
+Commands reference
+https://github.com/wwong99/pentest-notes/blob/master/oscp_resources/OSCP-Survival-Guide.md

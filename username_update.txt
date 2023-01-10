@@ -1,0 +1,16 @@
+There is an update for the default username in KALI. It is no more root/toor.
+The default credentials are kali/kali.
+You must use sudo before the commands we are using in this course.
+Or use the command sudo apt install -y kali-grant-root && sudo dpkg-reconfigure kali-grant-root in order to have a passwordless interaction with the terminal.
+-----------
+kali@kali:~$ ls /root
+ls: cannot open directory '/root': Permission denied
+kali@kali:~$
+kali@kali:~$ sudo ls /root
+[sudo] password for kali:
+hello
+kali@kali:~$ sudo apt install -y kali-grant-root && sudo dpkg-reconfigure kali-grant-root
+kali@kali:~$
+kali@kali:~$ sudo ls /root
+hello
+kali@kali:~$

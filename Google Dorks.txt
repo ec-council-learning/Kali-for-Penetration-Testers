@@ -1,0 +1,5 @@
+Confidential Governmental Documents site:.gov type:pdf "this document is CONFIDENTIAL"
+Live Camera Access inurl:ViewerFrame?Mode= (Panasonic web cams)
+Passwords “your password is” filetype:log
+Printers intitle:”Network Print Server” filetype:shtm 
+Final Grades inurl:final_grades.html site:edu

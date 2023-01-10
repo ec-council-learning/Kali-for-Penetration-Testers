@@ -1,0 +1,8 @@
+apt-get update
+apt-get -y install ruby-dev git make g++
+gem install bundler
+git clone https://github.com/iagox86/dnscat2.git
+cd dnscat2/server
+bundle install
+
+ruby ./dnscat2.rb
